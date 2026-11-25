@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#f2f8fd"/><stop offset="1" stop-color="#e0eff9"/></radialGradient>
+    <linearGradient id="mk" x1="0" x2="1"><stop offset="0" stop-color="#7A1FB8"/><stop offset="1" stop-color="#0672DF"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0B1F5C" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="512" rx="190" ry="20" fill="#0B1F5C" opacity=".08"/>
+  <g filter="url(#sh)">
+        <rect x="262" y="110" width="76" height="80" rx="14" fill="#79bce6" opacity=".85"/>
+        <rect x="280" y="190" width="40" height="20" fill="#176ba1"/>
+        <rect x="215" y="210" width="170" height="290" rx="40" fill="#fff"/>
+        <rect x="215" y="270" width="170" height="180" fill="#e9f4fb"/>
+        <rect x="215" y="270" width="170" height="8" fill="#1F8FD6"/>
+        <text x="300" y="306" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.5" fill="#1F8FD6">COLD &amp; FLU</text><text x="300" y="340" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800" fill="#0B1F5C">Decongestant</text><rect x="265" y="354" width="70" height="28" rx="14" fill="#1F8FD6"/><text x="300" y="373" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#fff">0.1%</text></g>
+</svg>

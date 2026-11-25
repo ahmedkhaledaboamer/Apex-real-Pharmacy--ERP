@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #0B1F5C;
+  background-color: #F5F6FB;
+}
+html[dir='rtl'] body {
+  font-family: 'Tajawal', 'Inter', sans-serif;
+}
+
+/*
+ * Product photos (public/images/products/*): always show the whole pack, never
+ * crop it, and let the photo's white backdrop melt into the card colour.
+ */
+img[src*='/images/products/'] {
+  object-fit: contain !important;
+  mix-blend-mode: multiply;
+  scale: 0.86;
+  background: transparent;
+}
